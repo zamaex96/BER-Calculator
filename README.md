@@ -1,26 +1,26 @@
-Matlab file which calculates bit error rate (BER) and bit deleivery rate (BDR) from a log file (consists of binary 0 and 1).
-                                                                                   
-                                                                                    
-The equivalent Python code 
+# BER and BDR Calculation from Log File
 
-Key Points:
-1. Data Reading: 
-The readmatrix function is replaced with pd.read_excel from the pandas library to read the Excel files into numpy arrays.
+This repository contains a Python script for calculating Bit Error Rate (BER) and Bit Delivery Rate (BDR) from a log file consisting of binary 0s and 1s. The script is an equivalent of a MATLAB script that performs the same calculations and plots the results.
 
-2. Calculation of BER and BSR: 
-The ber function remains almost the same, just adapted to Python syntax.
+## Key Points
 
-3. Plotting: 
-matplotlib is used for plotting, similar to MATLAB's plotting functions. The interpolation functions PchipInterpolator, CubicSpline, and interp1d from scipy are used for smooth curves.
-                                                                                    
-Required Libraries:
-* numpy: For numerical operations.
-* pandas: For reading Excel files.
-* matplotlib: For plotting.
-* scipy: For interpolation.
-  
-Install these libraries using pip if they are not already installed:
-                                         pip install numpy pandas matplotlib scipy
+1. **Data Reading**: 
+   - The `readmatrix` function in MATLAB is replaced with `pd.read_excel` from the `pandas` library to read Excel files into `numpy` arrays.
 
-This Python script should be functionally equivalent to the provided MATLAB script, and it will plot the BER and BSR values along with the interpolations. 
-Adjust file paths and configurations as needed.
+2. **Calculation of BER and BDR**: 
+   - The `ber` function remains almost the same, just adapted to Python syntax.
+
+3. **Plotting**: 
+   - `matplotlib` is used for plotting, similar to MATLAB's plotting functions. The interpolation functions `PchipInterpolator`, `CubicSpline`, and `interp1d` from `scipy` are used for smooth curves.
+
+## Required Libraries
+
+To run this script, you need the following Python libraries:
+* `numpy`: For numerical operations.
+* `pandas`: For reading Excel files.
+* `matplotlib`: For plotting.
+* `scipy`: For interpolation.
+
+You can install these libraries using `pip` if they are not already installed:
+```sh
+pip install numpy pandas matplotlib scipy
