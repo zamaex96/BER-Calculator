@@ -1,13 +1,16 @@
 Matlab file which calculates bit error rate (BER) and bit deleivery rate (BDR) from a log file (consists of binary 0 and 1).
-                                                                                    The equivalent Python code
+                                                                                   
+                                                                                    
+The equivalent Python code 
+
 Key Points:
-Data Reading: 
+1. Data Reading: 
 The readmatrix function is replaced with pd.read_excel from the pandas library to read the Excel files into numpy arrays.
 
-Calculation of BER and BSR: 
+2. Calculation of BER and BSR: 
 The ber function remains almost the same, just adapted to Python syntax.
 
-Plotting: 
+3. Plotting: 
 matplotlib is used for plotting, similar to MATLAB's plotting functions. The interpolation functions PchipInterpolator, CubicSpline, and interp1d from scipy are used for smooth curves.
                                                                                     
 Required Libraries:
