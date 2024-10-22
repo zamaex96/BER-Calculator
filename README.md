@@ -24,6 +24,7 @@ To run this script, you need the following Python libraries:
 You can install these libraries using `pip` if they are not already installed:
 ```sh
 pip install numpy pandas matplotlib scipy
+```
 
 
 <div align="center">
