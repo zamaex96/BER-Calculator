@@ -1,6 +1,6 @@
 % Script to calculate percentage of 1s in CSV files
 % Specify the directory containing CSV files
-input_directory = 'C:\path';
+input_directory = 'BarPlot';
 
 % Verify directory exists
 if ~exist(input_directory, 'dir')
