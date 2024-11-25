@@ -1,6 +1,6 @@
 % Script to calculate percentage of 1s in CSV files
 % Specify the directory containing CSV files
-input_directory = 'C:\BU Lab Assets\Local Disk\Em Docs\Research Work\Post_course\Multi-Hop UWOC\Plots\LoggedData -RAW\SesnorDataLog';
+input_directory = 'C:\path';
 
 % Verify directory exists
 if ~exist(input_directory, 'dir')
